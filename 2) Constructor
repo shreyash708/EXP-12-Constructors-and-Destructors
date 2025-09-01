@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+class construct
+{
+    int a,b;
+    public:
+    construct()
+    {
+    a=77;
+    b=82;
+}
+void input()
+{
+    cout<<"a="<<a<<endl<<"b="<<b;
+}
+};
+int main()
+{
+    construct c;
+    c.input();
+    return 0;
+}
+
+OUTPUT:
+a=77
+b=82
